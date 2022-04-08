@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .3em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: left;
+    font-size: 1.1em;
+    font-weight: lighter;
+    
+}
+
+.main-nav li {
+    padding: 1.5%;
+}
+
+.nav a:hover {
+    background-color: #ab7955
+}
+
+.main-header {
+    background-color: rgba(210, 130, 74, .8);
+    background-image: url("Images/Header Background.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4.5em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+    color: black;
+}
+
+.band-name-1 {
+    text-align: center;
+    margin: 0;
+    font-size: 4.5em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+    color: white;
+}
+
+.band-name-large {
+    font-size: 7em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.content-section-22 {
+    margin: 0.5em;
+	background-color: white
+	
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: "Raleway";
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.section-header-1 {
+    font-family: "Oswald";
+    font-weight: normal;
+    color: #ffffff;
+    text-align: center;
+    font-size: 2.5em;
+	background-color: #000000;
+}
+
+.section-header-2 {
+    font-family: "Raleway";
+    font-weight: Bold;
+    color: #000000;
+    text-align: left;
+    font-size: 2.3em;
+}
+
+.section-header-3 {
+    font-family: "Raleway";
+    font-weight: Bold;
+    color: #000000;
+    font-size: 1.5em;
+	padding-left: 0.5em;
+} 
+
+.section-header-4 {
+    font-family: "Raleway";
+    font-weight: Bold;
+    color: #000000;
+	text-align: left;
+    font-size: 1.5em
+}
+
+.shop-item-col {
+	color:#ffd573
+}
+
+.about-band-image {
+    float: left;
+    height: 250px;
+    width: 250px;
+	margin-right: 15px;
+    border-radius: 50%;
+}
+
+.main-footer {
+    background-color: #DB9B6E;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(252, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #2D9CDB;
+    font-size: 4em;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    text-align: center;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #DB9B6E;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary-22 {
+    color: white;
+    background-color: #000000;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #b37f5b;
+}
+
+.btn-primary-22:hover {
+    background-color: #707070;
+}
+
+.tour-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+    border: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date {
+    color: #555;
+    width: 11%;
+    font-weight: bold;
+}
+
+.tour-city {
+    width: 24%;
+}
+
+.tour-arena {
+    width: 42%;
+}
+
+.tour-btn {
+    max-width: 19%;
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #000000;
+    margin-bottom: 15px;
+	font-family: "Raleway";
+}
+
+.shop-item-title-1 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.shop-item-title-22 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+	-webkit-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+	-moz-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+	box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #000000;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 30%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #000000;
+    padding: 0;
+    text-align: left;
+    font-size: 1.1em;
+    margin-right: 25px;
+}
+
+.cart-quantity-input-2 {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.about-justify {
+	text-align: justify;
+	font-size: 19px
+
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+	color: white;
+}
+
+.loader-container{
+    position: fixed;
+    top:0; left: 0;
+    height:100%;
+    width: 100%;
+    z-index: 10000;
+    background:#f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader-container.active{
+    display: none;
+}
+
+.loader-container img{
+    height:10em;
+}
+
+.mn-searchbox {
+	float: center;
+	padding: 3px;
+	margin-top: 3px;
+	margin-right: 14px;
+	border: none;
+	font-size: 15px;
+	font-family: "Booter - Zero Zero";
+}
+
+.mn-searchbox-22 {
+	padding: 3px;
+	margin-top: 3px;
+	margin-right: 14px;
+	border: none;
+	font-size: 15px;
+	font-family: "Booter - Zero Zero";
+}
+
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.container-33 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.section-33 {
+	float: center
+}
+
+.helpsec {
+	float: right;
+	padding: 10px;
+	margin-top: 6px;
+	margin-right: 20px;
+	font-family: 'Poller One';
+}
+
+.header-11 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  padding-top: 5px;
+  background: #DB9B6E;
+  -webkit-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+}
+
+.form-label {
+	font-weight: Bold;
+	font-family: "Raleway";
+	font-size: 1.2em;
+	color: #000000;
+	padding-right: 8px;
+}
+
+.form-label-1 {
+	font-weight: Bold;
+	font-family: "Raleway";
+	font-size: 2em;
+	color: #000000;
+	padding-bottom: 300px;
+}
+
+.frm-align {
+	margin: 0 auto;
+	width: 800px;
+	display: inline-block;
+	text-align: right;
+}
+
+.frm-align-2 {
+	margin: 0 auto;
+	width: 1100px;
+	display: inline-block;
+	text-align: center;
+}
+
+.helppara {
+	width: 850px;
+	display: block;
+	color: #000000;
+	font-size: 20px;
+}
+
+.faqsleft {
+	float: left;
+	padding-right: 30px
+}
+
+.helphead {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.6em;
+    color: #000000;
+	font-family: "Raleway"
+}
+
+.about-band-image-1 {
+ 
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn-purchase-33  {
+    display: block;
+    margin: 40px auto 60px auto;
+    font-size: 1.2em;
+	color: white;
+}
+
+body {
+  background-color: #ffffff;
+}
